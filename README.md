@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/71698670/121201611-47c7f800-c892-11eb-
 
 And here's the corresponding output from our text recognition system :
 
-![image](https://user-images.githubusercontent.com/71698670/121202559-04ba5480-c893-11eb-87f6-a2e17745255e.png)
+![image](https://user-images.githubusercontent.com/71698670/121234397-48bc5200-c8b1-11eb-8014-80bcbeeca766.png)
 
 ### A few observations I made while tuning this model :
 
@@ -33,11 +33,14 @@ And here's the corresponding output from our text recognition system :
 
 **Frames per second:** The video that I used ran at about 30 FPS. I reduced that to 10 FPS, in order to generate quicker results during test time.
 
+**min confidence:** A higher value of min_confidence gives more accurate bounding boxes, however there's a chance that we may miss a few words that had low probability. I found that a value of 0.5-0.6 tends  to work well for our model 
+
 ## Concluding Notes :
 
 Our OCR engine is far from perfect, and it does output a few weird words from time to time :
 
-![image](https://user-images.githubusercontent.com/71698670/121206336-ffaad480-c895-11eb-8da6-e565b4c83abf.png)
+![image](https://user-images.githubusercontent.com/71698670/121229072-258ea400-c8ab-11eb-9b81-033b1de9fe97.png)
+
 
 This could be due to specifying incorrect ROIs, or an error by the text recognition engine.  
 
