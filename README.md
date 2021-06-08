@@ -11,7 +11,7 @@ The aim of the project was to find all instances of text embedded in a regular v
 I used the following pipeline for this task : 
 ![image](https://user-images.githubusercontent.com/71698670/121188813-1a298180-c887-11eb-89d5-a5cdc182887f.png)
 
-The first step to split the input video into frames. I used OpenCV’s [EAST text detector](https://arxiv.org/abs/1704.03155) to detect the presence of text in an image. The EAST text detector gives us the bounding box (x, y)-coordinates of text ROIs.
+The first step to split the input video into frames. I used OpenCV’s [EAST text detector](https://arxiv.org/abs/1704.03155) to detect the presence of text in an image. The EAST text detector gives us the bounding box (x, y)-coordinates of text Regions of Interest (ROIs).
 
 We extract each of these ROIs and then pass them into Tesseract v4’s LSTM deep learning text recognition algorithm. 
 Tesseract is a very popular OCR engine that has an inbuilt LSTM model for text recognition. The output of the LSTM gives us our actual OCR results.
