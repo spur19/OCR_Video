@@ -39,4 +39,10 @@ Our OCR engine is far from perfect, and it does output a few weird words from ti
 
 ![image](https://user-images.githubusercontent.com/71698670/121206336-ffaad480-c895-11eb-8da6-e565b4c83abf.png)
 
-I loved working on this project, and will be looking for ways to improve it in the future. 
+This could be due to specifying incorrect ROIs, or an error by the text recognition engine.  
+
+I loved working on this project, and will be looking for ways to improve it in the future. Working with OffNote Labs would be a great learning experience for me, and I look forward to discussing this opuurtunity with you in the near future.
+
+**Warm Regards**
+
+Shaurya Puri
