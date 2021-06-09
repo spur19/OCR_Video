@@ -59,7 +59,7 @@ Our OCR engine is far from perfect, and it does output a few weird words from ti
 
 This could be due to specifying incorrect ROIs, or an error by the text recognition engine.  
 
-I loved working on this project, and will be looking for ways to improve it in the future. Working with OffNote Labs would be a great learning experience for me, and I look forward to discussing this opuurtunity with you in the near future.
+I loved working on this project, and will be looking for ways to improve it in the future. Working with OffNote Labs would be a great learning experience for me, and I look forward to discussing this oppurtunity with you in the near future.
 
 **Warm Regards**
 
