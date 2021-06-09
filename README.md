@@ -42,6 +42,8 @@ Optionally, the following command line arguments may be provided:
       --height : Same as the width, but for the height. Again, our detector requires multiple of 32 for resized height.
       --padding : The amount of padding to add to each ROI border
 
+I would also recommend checking out the Jupyter Notebook (text_extraction.ipynb) for a more interactive experience.
+
 ### A few observations I made while tuning this model :
 
 **Padding :** A small amount of padding works well for most models. However, as we increase the padding, there may be overlapping between different words in our image/video, leading to poor results from our text recognition engine.
