@@ -1,10 +1,8 @@
-# OffNote Labs Research Task
-
-Hi. This is the my implementation of the Vision Task for Offnote Labs.
+# Text Recognition for Video Files
 
 ## Overview
 
-The aim of the project was to find all instances of text embedded in a regular video. This is a popular research problem in Computer Vision, commonly known as Optical Character Recognition (OCR). For this task, I used a video describing [Apple's event in October 2020](https://www.youtube.com/watch?v=Gz8vBoEFArA), since it had a healthy amount of text I could extract.
+The aim of this project was to find all instances of text embedded in a regular video. This is a popular research problem in Computer Vision, commonly known as Optical Character Recognition (OCR). For this task, I used a video describing [Apple's event in October 2020](https://www.youtube.com/watch?v=Gz8vBoEFArA), since it had a healthy amount of text I could extract.
 
 ## Project Structure
 
@@ -61,7 +59,7 @@ Our OCR engine is far from perfect, and it does output a few weird words from ti
 
 This could be due to specifying incorrect ROIs, or an error by the text recognition engine.  
 
-I loved working on this project, and will be looking for ways to improve it in the future. Working with OffNote Labs would be a great learning experience for me, and I look forward to discussing this oppurtunity with you in the near future.
+I loved working on this project, and will be looking for ways to improve it in the future.
 
 **Warm Regards**
 
